@@ -24,6 +24,9 @@ export default function AuthLayout({
         <input 
           value={input} 
           onChange={e => setInput(e.target.value)} 
+          style={{
+            "color": 'black'
+          }}
         />
       </div>
       {navLinks.map((link)=> {
