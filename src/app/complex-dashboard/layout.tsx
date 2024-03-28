@@ -19,6 +19,8 @@
 //   )
 // }
 //! PARALLEL ROUTES STYLE: Slots designated with @<dirname>
+//! Slots are not ROUTE segments and do not affect routing. 
+//! Also, technically children is @children parallel route.
 export default function DashboardLayout({
     children,
     users,
@@ -35,7 +37,7 @@ export default function DashboardLayout({
         <div>
           {children}
         </div>
-        <div style={{ display: "flex"}}>
+        <div style={{ display: "flex", backgroundColor: "white"}}>
           <div style={{display: "flex", flexDirection: "column" }}>
             <div>{users}</div>
             <div>{revenue}</div>

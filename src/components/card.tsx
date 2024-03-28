@@ -6,7 +6,9 @@ const Card = ({ children }: { children: React.ReactNode }) => {
     border: "1px solid #ddd",
     display: "flex",
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
+    color: "black",
+    backgroundColor: "white"
   }
 
   return <div style={cardStyle}>{children}</div>
