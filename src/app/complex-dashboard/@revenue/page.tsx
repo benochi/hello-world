@@ -1,3 +1,5 @@
+import Card from "@/components/card";
+
 export default function Notifications(){
-  return <h1>Revenue Metrics.</h1>
+  return <Card>Revenue Metrics.</Card>
 }
