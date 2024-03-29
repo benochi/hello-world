@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+// one dot (.) is same level, (..) is level above interception
 export default function InterceptedF2() {
   return (
   <>
